@@ -66,7 +66,7 @@
     <ul>
       <li><a href="https://www.latlong.net/"> Click to find your Latitude and Longitude </a></li>
 </ol><br>
-<h3>✅ Step-by-Step: Use Gmail App Password</h3>
+<h3>✅ Step-by-Step: set your Gmail and Password</h3>
 <ol>
   <li>
     <strong>Enable 2-Step Verification on Your Google Account</strong><br>

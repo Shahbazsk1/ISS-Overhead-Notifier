@@ -1,4 +1,4 @@
-<h1>🚀 ISS Overhead Notifier</h1>
+#🚀 ISS Overhead Notifier
 
     <h2>🔎 Description:</h2>
     <p>This Python-based project notifies you via email when the International Space Station (ISS) is passing over your location at night.

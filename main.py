@@ -3,13 +3,11 @@ from datetime import datetime
 import smtplib
 import time
 
-from django.db import connection
+MY_EMAIL = Your Email Id
+My_Password = Your Password
 
-MY_EMAIL = "15xxshahbazxx15@gmail.com"
-My_Password = "abcd1234()"
-
-MY_LAT = 19.189300 # Your latitude
-MY_LONG = 73.02180 # Your longitude
+MY_LAT =   Your latitude
+MY_LONG =  Your longitude
 def is_iss_overhead():
     response = requests.get(url="http://api.open-notify.org/iss-now.json")
     response.raise_for_status()

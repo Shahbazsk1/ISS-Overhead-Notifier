@@ -65,14 +65,35 @@
   <li><b>Latitude and Longitude API</b>
     <ul>
       <li><a href="https://www.latlong.net/"> Click to find your Latitude and Longitude </a></li>
+</ol><br>
+<h3>✅ Step-by-Step: Use Gmail App Password</h3>
+<ol>
+  <li>
+    <strong>Enable 2-Step Verification on Your Google Account</strong><br>
+    App passwords only work if 2FA is enabled.<br><br>
+    Go to: 
+    <a href="https://myaccount.google.com/security" target="_blank">
+      https://myaccount.google.com/security
+    </a><br><br>
+    Under “Signing in to Google”, enable 2-Step Verification
+  </li>
+  <br>
+  <li>
+    <strong>Generate App Password</strong><br>
+    After enabling 2FA, go to: 
+    <a href="https://myaccount.google.com/apppasswords" target="_blank">
+      https://myaccount.google.com/apppasswords
+    </a><br><br>
+    Select <code>Mail</code> as the app and <code>Windows Computer</code> (or other) as the device<br>
+    Click <strong>Generate</strong><br><br>
+    Google will give you a 16-character password like:<br>
+    <code>abcd efgh ijkl mnop</code>
+  </li>
+  <br>
+  <li>
+    <strong>Use the App Password in Your Script</strong><br>
+    Update your script like this:<br><br>
+    <pre><code>MY_EMAIL = "yourgmail@gmail.com"
+MY_PASSWORD = "abcd efgh ijkl mnop"  # Your app password here</code></pre>
+  </li>
 </ol>
-
-
-
-
-
-
-
-
-
-

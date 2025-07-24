@@ -5,9 +5,9 @@
   If both conditions are satisfied, an email alert is triggered to tell you to look up and try spotting the ISS in the night sky!</p>
 <h2>Modules and Libraries Used</h2>
 <ol>
-  <li><b></b>requests</b>
+  <li><b>requests</b>
     <ul>
-      <li>Purpose: To send HTTP requests to public APIs (ISS position & sunrise/sunset info).</li>
+      <li><b>Purpose:</b> To send HTTP requests to public APIs (ISS position & sunrise/sunset info).</li>
       <li><a href="https://docs.python-requests.org" target="_blank">https://docs.python-requests.org</a></li>
     </ul>
   </li>
@@ -22,7 +22,7 @@
       <li><a href="https://docs.python.org/3/library/smtplib.html" target="_blank">smtplib — SMTP protocol client</a></li>
     </ul>
   </li>
-  <li><b>ime</b>
+  <li><b>time</b>
     <ul>
       <li><b></b>Purpose:</b> Adds a 60-second interval between checks to avoid too frequent requests and emails.</li>
     </ul>
@@ -34,7 +34,7 @@
     <ul>
       <li><a href="http://api.open-notify.org/iss-now.json" target="_blank">http://api.open-notify.org/iss-now.json</a></li>
       <li><b>Purpose:</b> Returns the current location of the ISS as latitude and longitude.</li><br>
-      <p><b>Sample Response:</b><br>
+      <p><b>Sample Response:</b><br><br>
         {<br>
           "iss_position": {<br>
             "latitude": "47.6062",<br>
@@ -44,12 +44,13 @@
           "message": "success"<br>
         }<br>
       </p>
+    </ul>
   </li>
   <li><b>Sunrise-Sunset API</b>
     <ul>
       <li><a href="https://api.sunrise-sunset.org/json" target="_blank">https://api.sunrise-sunset.org/json</a></li>
       <li>Returns the sunrise and sunset times for a given location.</li><br>
-      <p><b>Sample Response:</b><br>
+      <p><b>Sample Response:</b><br><br>
         {<br>
           "results": {<br>
             "sunrise": "2025-07-23T00:44:32+00:00",<br>
@@ -59,6 +60,7 @@
           "status": "OK"<br>
         }<br>
       </p>
+    </ul>
   </li>
 </ol>
 
